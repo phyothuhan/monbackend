@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+background-color:#F1F1F1;
+}
+#mframe
+{
+border:#6196E7 thin solid;background-color:#FFF;min-height:500px;
+}
