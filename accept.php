@@ -9,6 +9,13 @@ $con=connect();
 $pid=getCode($_REQUEST["id"]);
 $date=getTodayDate();
 $sql="SELECT * FROM attendance where participantid='$pid'  AND AttendanceDate='".getTodayDate()."'";
+	$sql="SELECT * FROM attendance where participantid='$pid'  AND AttendanceDate='".getTodayDate()."'";
+	$sql="SELECT * FROM attendance where participantid='$pid'  AND AttendanceDate='".getTodayDate()."'";
+	$sql="SELECT * FROM attendance where participantid='$pid'  AND AttendanceDate='".getTodayDate()."'";
+	$sql="SELECT * FROM attendance where participantid='$pid'  AND AttendanceDate='".getTodayDate()."'";
+	$sql="SELECT * FROM attendance where participantid='$pid'  AND AttendanceDate='".getTodayDate()."'";
+	$sql="SELECT * FROM attendance where participantid='$pid'  AND AttendanceDate='".getTodayDate()."'";
+	
 	 
 				 $result=search($sql);
 				 $row=mysqli_num_rows($result);
